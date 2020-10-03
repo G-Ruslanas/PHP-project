@@ -194,8 +194,8 @@ if(isset($_POST['unliked'])){
         <script>
         $(document).ready(function(){
             $("[data-toggle='tooltip']").tooltip();
-            var post_id = <?php echo $the_post_id; ?>
-            var user_id = <?php echo loggedInUserId(); ?>
+            var post_id = <?php echo $the_post_id; ?>;
+            var user_id = <?php echo loggedInUserId(); ?>;
             //like
             $('.like').click(function(){
                 $.ajax({
@@ -221,4 +221,5 @@ if(isset($_POST['unliked'])){
                 });
             });
         });
+
         </script>
