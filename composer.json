@@ -1,0 +1,13 @@
+{
+    "name": "daini/cms",
+    "authors": [
+        {
+            "name": "Ruslanas",
+            "email": "ruslanas.gailiusas@gmail.com"
+        }
+    ],
+    "require": {
+        "pusher/pusher-php-server": "^4.1",
+      "ext-mysqli": "*"
+    }
+}
