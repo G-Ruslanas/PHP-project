@@ -1,5 +1,6 @@
 # PHP-project
 # About
+For this project were used Bootstrap as a framework.
 This is CMS project, where a user can upload different posts, write comments, like or unlike other people posts, manage his own personal data and so on. Difference between admin and user
 is that user has only personal data page, while admin has a dashboard, where admin can see and manage all comments,posts, users. Also admin can visit a page, where all users are written.
 # URL structure
